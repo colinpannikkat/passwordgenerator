@@ -24,7 +24,7 @@ def Password():
                 pyperclip.copy(password)
                 time.sleep(1)
         except ValueError:
-            print("Please enter a number!\n")
+            print("\nPlease enter a number!\n")
             time.sleep(1)
             continue
 Password()
