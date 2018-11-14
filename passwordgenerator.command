@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def Password():
     import pyperclip
     import random
@@ -27,4 +28,5 @@ def Password():
             print("Please enter a number!\n")
             time.sleep(1)
             continue
+
 Password()
